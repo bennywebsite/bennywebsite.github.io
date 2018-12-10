@@ -6,6 +6,10 @@ body {
   overflow-x: hidden;
   overflow-y: scroll;
 }
+div.media-flex {
+      display: flex;
+    justify-content: space-around;
+}
 
 a:hover {
   text-decoration: none;
