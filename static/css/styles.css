@@ -1,10 +1,12 @@
 html {
   overflow-x: hidden;
   overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 body {
   overflow-x: hidden;
   overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 
