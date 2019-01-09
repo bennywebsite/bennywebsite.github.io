@@ -353,6 +353,12 @@ a:hover {
   .skill {
     margin-bottom: 20px;
   }
+  div.nacholopez{
+    font-size: 14px !important;
+    text-align: center;
+    color: #c5c5c5;
+    background-color: #F8F9FA;
+  }
 
   @media (max-width: 1200px) {
     .sidebar {
