@@ -20,6 +20,7 @@ const gigData = {
  // ADD THE TITLE IN 'TEXT'
  // AND THE DATE OF EXPIRY IN 'LIMIT'
 
+
  const gigs = {
 
      gig1: {
