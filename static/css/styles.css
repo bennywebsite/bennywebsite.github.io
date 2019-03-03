@@ -10,8 +10,7 @@ body {
   scroll-behavior: smooth;
 }
 
-div.concerts-image {
-  background-image: url('../images/fiction.jpg');
+.concerts-image {
   background-repeat: no-repeat;
   background-size: contain;
   height: 70vh;
@@ -46,7 +45,7 @@ ul.concerts-ul>li {
   color: #5c5c5d;
   font-weight: bold;
   font-size: 25px;
-  
+
 }
 
 a:hover {
