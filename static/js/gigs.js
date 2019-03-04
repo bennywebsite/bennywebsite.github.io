@@ -1,5 +1,5 @@
 
-const gigData = {
+let gigData = {
   // DO NOT TOUCH THIS =>
   url: "./static/images/fiction.jpg",
   shop: "https://www.eventbrite.com/o/benedict-cork-17515705636?s=92025368",
@@ -21,28 +21,28 @@ const gigData = {
  // AND THE DATE OF EXPIRY IN 'LIMIT'
 
 
- const gigs = {
+ let gigs = {
 
      gig1: {
        text: "Thursday February 28th at Fiction Studios, London",
-       limit: "28/February/2019"
+       limit: "28/2/2019"
      },
 
     gig2: {
       text: "Thursday March 21st at Fiction Studios, London",
       // THIS WILL BE THE DATE WHEN THE GIG WILL BE REMOVED FROM THE PAGE
-      limit: "21/March/2019"
+      limit: "21/3/2019"
     },
 
     gig3: {
       text: "Thursday April 25th at Fiction Studios, London",
-      limit: "25/April/2019"
+      limit: "25/4/2019"
 
     },
 
     gig4: {
       text: "Thursday May 23rd at Fiction Studios, London",
-      limit: "22/May/2019"
+      limit: "22/5/2019"
     },
 
 

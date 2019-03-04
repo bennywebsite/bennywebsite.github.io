@@ -27,10 +27,10 @@ let myArray = [];
 let today = new Date();
 function formatDate(date) {
   var monthNames = [
-    "January", "February", "March",
-    "April", "May", "June", "July",
-    "August", "September", "October",
-    "November", "December"
+    "1", "2", "3",
+    "4", "5", "6", "7",
+    "8", "9", "10",
+    "11", "12"
   ];
   var day = date.getDate();
   var monthIndex = date.getMonth();
@@ -40,21 +40,29 @@ function formatDate(date) {
 
 console.log(formatDate(today));
 formattedDate = formatDate(today);
-var d1 = Date.parse(formattedDate);
+// var d1 = Date.parse(formattedDate);
+
+let newArray = Object.entries(gigs)
 
 
-for (var key in gigs) {
+// for (var key of gigs) {
+//
+// 	if (gigs.hasOwnProperty(key)) {
+//     var d2 = Date.parse(gigs[key]["limit"]);
+//     if ( d2 > d1 ) {
+//       myArray.push(gigs[key]["text"]); console.log(myArray)}
+//  dates must not be a string to be compared, they can be parsed into a numeric
+//   	 }
+// };
 
-	if (gigs.hasOwnProperty(key)) {
-    var d2 = Date.parse(gigs[key]["limit"]);
-    if ( d2 > d1 ) {
-      myArray.push(gigs[key]["text"]); console.log(myArray)}
-// dates must not be a string to be compared, they can be parsed into a numeric
-  	 }
-};
+for (var i = 0, len = newArray.length; i < len; i++) {
+  let d2 = newArray[i][1]["limit"].split('/');
+ var RealDate = new Date(d2[2],parseInt(d2[1]) - 1,d2[0]);
+ if (RealDate > today){
+   myArray.push(newArray[i][1]["text"]);
+ }
+}
 
-
-var array = ['Slide 1', 'Slide 2', 'Slide 3', 'Slide 4', 'Slide 5', 'Slide 6', 'Slide 7', 'Slide 8', 'Slide 9'],
   // Reduce will iterate over all the array items and returns a single value.
   listItems = myArray.reduce((result, item) => {
     // Add a string to the result for the current item. This syntax is using template literals.

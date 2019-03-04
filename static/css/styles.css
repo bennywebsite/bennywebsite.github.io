@@ -14,6 +14,16 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   height: 70vh;
+  /* width: 100%; */
+}
+
+@media (max-width: 600px) {
+.concerts-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 57vh;
+    width: 101%;
+  }
 }
 
 .ul-div {
