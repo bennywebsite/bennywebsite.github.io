@@ -39,13 +39,17 @@ function formatDate(date) {
 }
 
 console.log(formatDate(today));
-
+formattedDate = formatDate(today);
+var d1 = Date.parse(formattedDate);
 
 
 for (var key in gigs) {
+
 	if (gigs.hasOwnProperty(key)) {
-    if(gigs[key]["limit"] != formatDate(today))
-		myArray.push(gigs[key]["text"]);
+    var d2 = Date.parse(gigs[key]["limit"]);
+    if ( d2 > d1 ) {
+      myArray.push(gigs[key]["text"]); console.log(myArray)}
+// dates must not be a string to be compared, they can be parsed into a numeric
   	 }
 };
 

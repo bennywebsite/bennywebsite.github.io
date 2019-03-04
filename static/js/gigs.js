@@ -46,8 +46,5 @@ const gigData = {
     },
 
 
+
 };
-
-
-
-
