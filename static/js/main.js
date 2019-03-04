@@ -1,22 +1,3 @@
-
-/*
-*=================================
-* Hugo UILite Portfolio v0.8
-*=================================
-*
-* Free version https://uicard.io/products/hugo-uilite
-* Pro version https://uicard.io/products/hugo-uilite-pro
-* Demo https://demo.uicard.io/hugo-uilite-portfolio-demo/
-*
-* Coded By UICardio
-*
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*
-*/
-
-
-
-
 let spanTitle = document.getElementById('concert-title-json');
 let buttonLink = document.getElementById('atag-concerts');
 let imgEvents = document.getElementById('concert-img-json');
@@ -24,6 +5,7 @@ let urlEvents = gigData["url"];
 let urlShop = gigData["shop"];
 let titleEvents = gigData["title"];
 let myArray = [];
+let newArray = Object.entries(gigs);
 let today = new Date();
 function formatDate(date) {
   var monthNames = [
@@ -37,14 +19,9 @@ function formatDate(date) {
   var year = date.getFullYear();
   return day + '/' + monthNames[monthIndex] + '/' + year;
 }
-
 console.log(formatDate(today));
 formattedDate = formatDate(today);
 // var d1 = Date.parse(formattedDate);
-
-let newArray = Object.entries(gigs)
-
-
 // for (var key of gigs) {
 //
 // 	if (gigs.hasOwnProperty(key)) {
@@ -54,10 +31,11 @@ let newArray = Object.entries(gigs)
 //  dates must not be a string to be compared, they can be parsed into a numeric
 //   	 }
 // };
-
 for (var i = 0, len = newArray.length; i < len; i++) {
   let d2 = newArray[i][1]["limit"].split('/');
+  console.log(d2);
  var RealDate = new Date(d2[2],parseInt(d2[1]) - 1,d2[0]);
+ console.log(RealDate);
  if (RealDate > today){
    myArray.push(newArray[i][1]["text"]);
  }
