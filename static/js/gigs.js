@@ -36,7 +36,7 @@ const gigData = {
 
     gig3: {
       text: "Thursday April 25th at Fiction Studios, London",
-      limit: "25/April/2019",
+      limit: "25/April/2019"
 
     },
 
