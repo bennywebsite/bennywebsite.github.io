@@ -1,6 +1,21 @@
 
 let gigData = {
   // DO NOT TOUCH THIS =>
+  // BIO has up to 3 paragraphs. if empty, it will not be displayed.
+  bio1: "Benedict released his first EP ‘Piano Tapes’ over the summer of 2018, a completely live performance of 5 tracks which garnered support from none other than Elton John, who called lead track Ghost ‘sensational’ and Benedict ‘a name to look out for’.",
+
+  bio2: "He returns with ‘Therapy’, his first single of 2019, a sweeping piano ballad exploring themes of mental health and self love.",
+
+  bio3: " ",
+  // Video display has a max of 3 links
+  video1: "https://www.youtube.com/embed/eEmbj9-BaJk",
+
+  video2: "https://www.youtube.com/embed/iiYPHYKznYI",
+  
+  video3: "https://www.youtube.com/embed/2VvJmq7aeNE",
+
+
+  // picture link of events
   url: "./static/images/fiction.jpg",
   shop: "https://www.eventbrite.com/o/benedict-cork-17515705636?s=92025368",
   // <=

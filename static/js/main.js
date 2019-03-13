@@ -2,6 +2,20 @@ let spanTitle = document.getElementById('concert-title-json');
 let buttonLink = document.getElementById('atag-concerts');
 let imgEvents = document.getElementById('concert-img-json');
 let urlEvents = gigData["url"];
+let biop1 = document.getElementById('biop1');
+let biop2 = document.getElementById('biop2');
+let biop3 = document.getElementById('biop3');
+let bio1 = gigData["bio1"];
+let bio2 = gigData["bio2"];
+let bio3 = gigData["bio3"];
+
+let video1 = document.getElementById('video1');
+let video1url = gigData["video1"];
+let video2 = document.getElementById('video2');
+let video2url = gigData["video2"];
+let video3 = document.getElementById('video3');
+let video3url = gigData["video3"];
+
 let urlShop = gigData["shop"];
 let titleEvents = gigData["title"];
 let myArray = [];
@@ -56,6 +70,12 @@ resultElement.innerHTML = listItems;
 imgEvents.src = urlEvents;
 spanTitle.innerHTML = titleEvents;
 buttonLink.href = urlShop;
+biop1.innerHTML = bio1;
+biop2.innerHTML = bio2;
+biop3.innerHTML = bio3;
+video1.src = video1url;
+video2.src = video2url;
+video3.src = video3url;
 
 
 
