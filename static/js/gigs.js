@@ -60,6 +60,10 @@ let gigData = {
       limit: "22/5/2019"
     },
 
+   gig5: {
+      text: "Thursday June 27th at Fiction Studios, London",
+      limit: "27/6/2019"
+    },
 
 
 };
