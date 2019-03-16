@@ -16,7 +16,7 @@ let gigData = {
 
 
   // picture link of events
-  url: "./static/images/fiction.jpg",
+  url: "https://drive.google.com/open?id=1loveBRWby7GQuGerfcnN8QZ22WtxolQ5",
   shop: "https://www.eventbrite.com/o/benedict-cork-17515705636?s=92025368",
   // <=
   // THIS IS THE TITLE OF THE BLOCK =>
