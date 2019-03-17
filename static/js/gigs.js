@@ -11,12 +11,12 @@ let gigData = {
   video1: "https://www.youtube.com/embed/eEmbj9-BaJk",
 
   video2: "https://www.youtube.com/embed/iiYPHYKznYI",
-  
+
   video3: "https://www.youtube.com/embed/2VvJmq7aeNE",
 
 
   // picture link of events
-  url: "https://drive.google.com/open?id=1loveBRWby7GQuGerfcnN8QZ22WtxolQ5",
+  url: "./static/images/fiction.jpg",
   shop: "https://www.eventbrite.com/o/benedict-cork-17515705636?s=92025368",
   // <=
   // THIS IS THE TITLE OF THE BLOCK =>

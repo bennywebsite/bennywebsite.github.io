@@ -116,6 +116,6 @@ $(document).ready(function(){
 
   setTimeout(function(){
     $(".main-content").addClass("active");
-  }, 1900);
+  }, 1);
 
 });
