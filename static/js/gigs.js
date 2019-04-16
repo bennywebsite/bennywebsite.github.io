@@ -2,11 +2,11 @@
 let gigData = {
   // DO NOT TOUCH THIS =>
   // BIO has up to 3 paragraphs. if empty, it will not be displayed.
-  bio1: "British singer songwriter Benedict Cork has been receiving praise from all over the shop. Elton John: “sensational … a name to look out for,” Clash Magazine: “an artist unafraid to let his emotions pour out on a record.”",
+  bio1: "British singer songwriter Benedict Cork has been receiving praise from all over the shop. Elton John: “sensational … a name to look out for,” Billboard : “devastatingly beautiful,” Clash Magazine: “an artist unafraid to let his emotions pour out on a record.”",
 
-  bio2: "Benedict released his first EP ‘Piano Tapes’ over the summer of 2018, a completely live performance of 5 tracks recorded at Red Gate Recorders in LA. This was followed by his first single of 2019 ’Therapy,’ a sweeping piano ballad exploring themes of mental health and self love.",
+  bio2: "Benedict released his first EP ‘Piano Tapes’ over the summer of 2018, a completely live performance of 5 tracks recorded at Red Gate Recorders in LA. His first release of 2019 was ’Therapy,’ a sweeping piano ballad with themes of mental health and self love. This was followed by his second single of the year ‘Fear Of Lonely’, exploring the loneliness of moving to a new country after a break-up - written during Benedict’s time living in Stockholm, Sweden.",
 
-  bio3: "Most recently, Benedict supported Brit Award winner Tom Walker and Grammy nominated Emily King and co-wrote Adam Lambert’s current single ‘Feel Something’ which Rolling Stone called “an achingly yearning ballad.” He returns with his second single of the year ‘Fear Of Lonely’, exploring the loneliness of moving to a new country after a break-up - written during Benedict’s time living in Stockholm, Sweden.",
+  bio3: "Most recently, Benedict supported Brit Award winner Tom Walker and Grammy nominated Emily King and co-wrote Adam Lambert’s current single ‘Feel Something’ which Rolling Stone called “an achingly yearning ballad.” He returns with his third single of 2019 'Funny How Things Change,' which explores the passing of time after a relationship ends and the distance this can create between two people.",
   // Video display has a max of 3 links
   video1: "https://www.youtube.com/embed/eEmbj9-BaJk",
 
