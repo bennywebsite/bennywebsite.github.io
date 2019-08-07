@@ -40,30 +40,12 @@ let gigData = {
 
      gig1: {
        text: "Thursday February 28th at Fiction Studios, London",
+       // THIS WILL BE THE DATE WHEN THE GIG WILL BE REMOVED FROM THE PAGE
        limit: "28/2/2019"
      },
 
-    gig2: {
-      text: "Thursday March 21st at Fiction Studios, London",
-      // THIS WILL BE THE DATE WHEN THE GIG WILL BE REMOVED FROM THE PAGE
-      limit: "21/3/2019"
-    },
 
-    gig3: {
-      text: "Thursday April 25th at Fiction Studios, London",
-      limit: "25/4/2019"
 
-    },
-
-    gig4: {
-      text: "Thursday May 23rd at Fiction Studios, London",
-      limit: "22/5/2019"
-    },
-
-   gig5: {
-      text: "Thursday June 27th at Fiction Studios, London",
-      limit: "27/6/2019"
-    },
 
 
 };
