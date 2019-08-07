@@ -16,11 +16,11 @@ let gigData = {
 
 
   // picture link of events
-  url: "./static/images/soldout.jpeg",
-  shop: "https://www.eventbrite.com/o/benedict-cork-17515705636?s=92025368",
+  url: "./static/images/BC_Hoxton_1080x1350_04.jpg",
+  shop: "https://www.axs.com/uk/events/379339/benedict-cork-tickets?goldenvoiceuk",
   // <=
   // THIS IS THE TITLE OF THE BLOCK =>
-  title: "Fiction Sessions - Benedict Cork & Friends"
+  title: "Benedict Cork - Hoxton Hall"
   // <=
 };
  // PLEASE WHILE ADDING GIGS, WRITTE THEM EXACTLY LIKE THIS:
